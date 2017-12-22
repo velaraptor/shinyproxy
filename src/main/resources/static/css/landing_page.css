@@ -1,0 +1,61 @@
+/**
+ * ShinyProxy
+ *
+ * Copyright (C) 2016-2017 Open Analytics
+ *
+ * ===========================================================================
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the Apache License as published by
+ * The Apache Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * Apache License for more details.
+ *
+ * You should have received a copy of the Apache License
+ * along with this program.  If not, see <http://www.apache.org/licenses/>
+ */
+ .vertical-center {
+		height:100%;
+		width:100%;
+
+		text-align: center;  /* align the inline(-block) elements horizontally */
+	}
+
+	.vertical-center:before {    /* create a full-height inline block pseudo=element */
+		content: " ";
+		display: inline-block;
+		vertical-align: middle;    /* vertical alignment of the inline element */
+		height: 100%;
+	}
+
+	.Absolute-Center {
+		margin: auto;
+
+		top: 0; left: 0; bottom: 0; right: 0;
+	}
+
+	#contentimage:hover {
+		opacity:0.7;
+	}
+
+	.jumbotron p {
+		font-size: 14px !important;
+	}
+	.Absolute-Center.is-Responsive {
+		width: 50%; 
+		height: 50%;
+		min-width: 600px;
+		max-width: 600px;
+		padding: 40px;
+	}
+	.jumbotron > hr {
+		border-top-color: #282828 !important; 
+	}
+	body {
+		background: url('https://drive.google.com/uc?export=view&id=1xvHnlZkdbQ_M6axOj-c3iyVLLgPNwYHD');
+
+	}

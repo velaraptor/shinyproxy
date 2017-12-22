@@ -53,10 +53,11 @@ body > div#navbar { padding-top: 0px; }
 .loading {
 	display: none;
 	position: fixed;
-	top: 150px;
+	top: 180px;
 	width: 100%;
 	z-index: 9999;
-	background: url(../img/loading.gif) center no-repeat #fff;
+	background: url(../img/loading.gif) center no-repeat #060606;
+	background-size: 10px ;
 }
 
 .loading-txt {
